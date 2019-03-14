@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>9</title>
+		<link rel="stylesheet" type="text/css" href="css/9-Item-Details-Page.css">
+	</head>
+
+	<body>
+	
+			 <script type="text/javascript">
+        ~function(window){
+            let computeREM = function(){
+                let doc = document.documentElement,
+                    docWidth = doc.clientWidth;
+                if(docWidth>=625){
+                    doc.style.fontSize = 100+"px";
+                    return;
+                }
+                doc.style.fontSize = (docWidth/625) * 100+"px";
+                console.log(docWidth)
+            }
+            computeREM();
+            window.addEventListener('resize',computeREM)
+        }(window)
+    </script>
+<div class="mainBox">
+    <header>
+        <div class="nav-bar"><i></i></div>
+        <div class="nav-title">中国菜</div>
+        <div class="nav-count"><i></i></div>
+    </header>
+    <section class="sec-body">
+        <div class="b-bg"><img src="./img/img9/Image1.png" alt=""></div>
+        <div class="b-content">
+            <div class="con-price"></div>
+            <h3>凉拌马铃薯</h3>
+            <div class="con-assess">4.5<img src="./img/img9/rating_67.png" alt=""><span>（ 18 评论 ）</span></div>
+            <div class="con-detail">
+                外面酥脆，里面有点甜，有点辣，蜂蜜、辣椒、土豆都是你想要吃点东西时吃的最好的东西。如果你想使这个食谱稍微健康一点，你可以烤土豆脆，而不是油炸他们。一个完美的启动任何政党，只需递给你的每一个客人一把牙签，让党开始！
+            </div>
+        </div>
+        <div class="b-bottom">
+            <h3>请发表你的评论</h3>
+            <div class="send-mess">
+                <input type="text" placeholder="输入文字...">
+                <img src="img/img9/icon_send.png" alt="">
+            </div>
+            <div class="b-message">
+                <div class="headImg"><img src="img/img9/img.png" alt=""></div>
+                <div class="messCon">
+                    <div class="m-title"><span>Alex Stone</span><img src="img/img9/rating.png" alt=""></div>
+                    <div class="m-con">哟，中国提供了完美的地方，体验正宗中国菜有轻微的印
+                        度变化，使您的口味。蓓蕾遍布Lala。</div>
+                </div>
+                <div class="messAssess">
+                    <div class="good"><img src="img/img9/like.png" alt=""><span>2 赞</span></div>
+                    <div class="comment"><img src="img/img9/Comment.png" alt=""><span>暂无评价</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="addCart">
+            <div class="addBtn">添加购物车</div>
+        </div>
+    </section>
+</div>
+</body>
+</html>

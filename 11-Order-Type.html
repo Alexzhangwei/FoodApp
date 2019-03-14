@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>11-Order-Type</title>
+		<link rel="stylesheet" type="text/css" href="css/11-Order-Type.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			~ function(window) {
+				let computeREM = function() {
+					let doc = document.documentElement,
+						docWidth = doc.clientWidth;
+					if(docWidth >= 1250) {
+						doc.style.fontSize = 100 + "px";
+						return;
+					}
+					doc.style.fontSize = (docWidth / 1250) * 100 + "px";
+					console.log(docWidth)
+				}
+				computeREM();
+				window.addEventListener('resize', computeREM)
+			}(window)
+		</script>
+		<section class="mainBox">
+			<div class="View-head">
+				<div class="head">
+					<div class="head-1"></div>
+				<div class="head-2"><i></i><span>确认订单</span><em></em></div>
+				</div>
+				
+			</div>
+			<div class="View-content">
+				<div class="bg-box">
+                    <div class="Order-methods">
+                    	<div class="deliver-the-goods"><i></i><span>快递送餐</span></div>
+                    	<div class="Self-Pick-up"><i></i><span>到店自取</span></div>
+                    </div>
+                    <div class="Order-info">
+                    	<input type="text" placeholder="姓名"  class="order-name"/>
+                    	<input type="tel" placeholder="联系电话"  class="order-tel"/>
+                    	<input type="email" placeholder="邮箱地址"  class="order-email"/>
+                    	<input type="text" placeholder="订单备注"  class="order-remark"/>
+                    </div>
+				</div>
+			</div>
+			<div class="fixed-Box">
+				<input type="button" value="继续" class="fixed-btn" />
+			</div>
+		</section>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>

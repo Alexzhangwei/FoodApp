@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>4</title>
+		<link rel="stylesheet" type="text/css" href="css/4_Navigation_bar.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			~ function(window) {
+				let computeREM = function() {
+					let doc = document.documentElement,
+						docWidth = doc.clientWidth;
+					if(docWidth >= 1250) {
+						doc.style.fontSize = 100 + "px";
+						return;
+					}
+					doc.style.fontSize = (docWidth / 1250) * 100 + "px";
+					console.log(docWidth)
+				}
+				computeREM();
+				window.addEventListener('resize', computeREM)
+			}(window)
+		</script>
+		<section>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="nav-box">
+				<div class="nav-top">
+				<a href="#"><img src="img/img4/Button1.png" class="img-no"></a>
+				<a href="#"><img src="img/img4/Button2.png"></a>
+				<a href="#"><img src="img/img4/Button3.png"></a>
+				<a href="#"><img src="img/img4/Button4.png"></a>
+				<a href="#"><img src="img/img4/Button5.png"></a>
+				</div>
+				<div class="nav-bottom">
+					<a href="#"><img src="img/img4/Button6.png"></a>
+				</div>
+				</div>
+				
+				
+			</div>
+		</section>
+		<section class="mainBox" id="main">
+			<div class="View-head">
+				<div class="head"><div class="head-1"></div>
+				<div class="head-2"><i style="cursor:pointer" onclick="openNav()"></i><span>菜单</span><em></em></div></div>
+				
+			</div>
+			<div class="View-content" id="main-bg">
+				<div class="Menus Menus-1">
+					<div class="Menu"><img src="img/img5/Icon1.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>休闲食品</p><em></em><span>1$-10$</span></div>
+					<div class="Menu"><img src="img/img5/Icon2.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>中国菜</p><em></em><span>1$-10$</span></div>
+				</div>
+				<div class="Menus Menus-2">
+					<div class="Menu"><img src="img/img5/Category3.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>非素食</p><em></em><span>1$-10$</span></div>
+					<div class="Menu"><img src="img/img5/Icon4.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>饮料</p><em></em><span>1$-10$</span></div>
+				</div>
+				<div class="Menus Menus-3">
+					<div class="Menu"><img src="img/img5/Category5.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>披萨</p><em></em><span>1$-10$</span></div>
+					<div class="Menu"><img src="img/img5/Category6.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>甜甜圈</p><em style="margin-top: 0.2rem;"></em><span>1$-10$</span></div>
+				</div>
+
+			</div>
+		</section>
+		<script type="text/javascript">
+			function openNav() {
+    document.getElementById("mySidenav").style.width = "8.5rem";
+    document.getElementById("main").style.marginLeft = "3.9rem";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+		</script>
+	</body>
+
+</html>

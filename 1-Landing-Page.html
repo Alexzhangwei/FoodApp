@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>loginPage</title>
+    <link rel="stylesheet" type="text/css" href="css/1-Landing-Page.css">
+</head>
+<body>
+    <script type="text/javascript">
+        ~function(window){
+            let computeREM = function(){
+                let doc = document.documentElement,
+                    docWidth = doc.clientWidth;
+                if(docWidth>=1250){
+                    doc.style.fontSize = 100+"px";
+                    return;
+                }
+                doc.style.fontSize = (docWidth/1250) * 100+"px";
+                console.log(docWidth)
+            }
+            computeREM();
+            window.addEventListener('resize',computeREM)
+        }(window)
+    </script>
+    <section class="mainBox">
+        <div class="login-headImg"></div>
+        <div class="loginInfo">
+        	<!--<div> <input type="button" class="btn-weixin" placeholder="微信登录"></div>
+        	<div> <input type="button" class="btn-qq" placeholder="QQ登录"></div>
+        	<div> <input type="button" class="btn-email" placeholder="邮箱地址登录"></div>-->
+           
+            <div class="login-btn btn-weixin">微信登录</div>
+             <div class="login-btn btn-qq">QQ登录</div>
+           
+            <div class="login-btn btn-email">邮箱地址登录</div>
+            <a href="2-Register-Page.html" class="backRegister">还没有账号?</a>
+        </div>
+    </section>
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>

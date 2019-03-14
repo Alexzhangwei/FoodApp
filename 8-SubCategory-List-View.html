@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>8-SubCategory-List-View</title>
+		<link rel="stylesheet" type="text/css" href="css/8-SubCategory-List-View.css">
+	</head>
+
+	<body>
+		 <script type="text/javascript">
+        ~function(window){
+            let computeREM = function(){
+                let doc = document.documentElement,
+                    docWidth = doc.clientWidth;
+                if(docWidth>=1250){
+                    doc.style.fontSize = 100+"px";
+                    return;
+                }
+                doc.style.fontSize = (docWidth/1250) * 100+"px";
+                console.log(docWidth)
+            }
+            computeREM();
+            window.addEventListener('resize',computeREM)
+        }(window)
+    </script>
+		<section class="mainBox">
+			<div class="View-head">
+				<div class="head">
+					<div class="head-1"></div>
+				<div class="head-2"><i></i><span>菜单</span><em></em></div>
+				</div>
+				
+			</div>
+			<div class="View-content">
+
+				<div class="Menu">
+					<img src="img/img7/Image1.png" style="width: 1.8rem;
+	height:1.8rem;">
+					<div class="Menu-text">
+						<p>猪肉饺子</p><span></span></div>
+					<div class="Menu-tips">
+						<div class="price"></div>
+						<input type="button" class="btn" value="添加">
+					</div>
+				</div>
+				<div class="Menu">
+					<img src="img/img7/Image2.png" style="width: 1.8rem;
+	height:1.8rem;">
+					<div class="Menu-text">
+						<p>烤春卷</p><span></span></div>
+					<div class="Menu-tips">
+						<div class="price"></div>
+						<input type="button" class="btn" value="添加">
+					</div>
+				</div>
+
+				<div class="Menu"><img src="img/img7/Image3.png" style="width: 1.8rem;
+	height:1.8rem;">
+					<div class="Menu-text">
+						<p class="red">兰州炒面</p><span></span></div>
+					<div class="Menu-tips">
+						<div class="price"></div>
+						<input type="button" class="btn" value="添加">
+					</div>
+				</div>
+				<div class="Menu"><img src="img/img7/Image4.png" style="width: 1.8rem;
+	height:1.8rem;">
+					<div class="Menu-text">
+						<p>凉拌马铃薯</p><span></span></div>
+					<div class="Menu-tips">
+						<div class="price"></div>
+						<input type="button" class="btn" value="添加">
+					</div>
+				</div>
+
+				<div class="Menu"><img src="img/img7/Image5.png" style="width: 1.8rem;
+	height:1.8rem;">
+					<div class="Menu-text">
+						<p>冰海鲜</p><span></span></div>
+					<div class="Menu-tips">
+						<div class="price"></div>
+						<input type="button" class="btn" value="添加">
+					</div>
+				</div>
+				<div class="Menu"><img src="img/img7/Image6.png" style="width: 1.8rem;
+	height:1.8rem;">
+					<div class="Menu-text">
+						<p class="red">蒜香辣子鸡</p><span></span></div>
+					<div class="Menu-tips">
+						<div class="price"></div>
+						<input type="button" class="btn" value="添加">
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>

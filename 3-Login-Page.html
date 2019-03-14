@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>loginPage</title>
+    <link rel="stylesheet" type="text/css" href="css/3-Login-Page.css">
+</head>
+<body>
+    <script type="text/javascript">
+        ~function(window){
+            let computeREM = function(){
+                let doc = document.documentElement,
+                    docWidth = doc.clientWidth;
+                if(docWidth>=1250){
+                    doc.style.fontSize = 100+"px";
+                    return;
+                }//3倍图   1250/3=实际屏幕像素
+                doc.style.fontSize = (docWidth/1250) * 100+"px";
+                console.log(docWidth)
+            }
+            computeREM();
+            window.addEventListener('resize',computeREM)
+        }(window)
+    </script>
+    <section class="mainBox">
+        <div class="login-headImg"></div>
+        <div class="loginInfo">
+            <div class="u-email"><i></i><input type="text" placeholder="邮箱地址"></div>
+            <div class="u-pwd"><i></i><input type="password" placeholder="登录密码"></div>
+            <div class="login-btn">登录</div>
+            <a href="1-Landing-Page.html" class="backLogin">返回登陆页</a>
+        </div>
+    </section>
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>

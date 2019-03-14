@@ -1,0 +1,277 @@
+html {
+	font-size: 100px;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f7f7f7;
+}
+
+input {
+	outline: none;
+	border: 0;
+}
+
+.mainBox {
+	height: 22.1rem;
+
+}
+
+.View-head {
+	width: 100%;
+	height: 1.9rem;
+	 background:linear-gradient(to right,#fdad2c,#f8a220,#ef8c07) ;
+	
+}
+.head{
+	 padding-top: 0.1rem;
+	 background:linear-gradient(to right,#fdad2c,#f8a220,#ef8c07) ;
+}
+.View-head .head-1 {
+	margin-left: 0.16rem;
+	height: 0.6rem;
+	background: url(../img/img5/statusbar.png) no-repeat;
+	background-size: 99% 65%;
+}
+
+.View-head .head-2 {
+	padding-right: 0.35rem;
+	padding-left: 0.5rem;
+	padding-bottom: 0.6rem;
+	padding-top: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.head-2 i {
+	margin-top: 0.15rem;
+	width: 0.8rem;
+	height: 0.65rem;
+	background: url(../img/img7/back.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.head-2 span {
+	color: #FFFFFF;
+	font-size: 0.51rem;
+	font-family: "微软雅黑";
+}
+
+.head-2 em {
+	width: 0.75rem;
+	height: 0.9rem;
+ 
+}
+
+.View-content {
+	margin-top: -0.93rem;
+	background-color: #F3F3F3;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.wrapper {
+	width: 100%;
+	height: 8.9rem;
+	background-color: #FFFFFF;
+}
+
+.tab {
+	height: 1.5rem;
+	width: 12.5rem;
+}
+
+.tab li {
+	padding: 0;
+	border: 0;
+	margin-bottom: 0.5rem;
+	position: relative;
+	float: left;
+	width: 4rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #3F3F3F;
+	font-size: 0.4rem;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	border-bottom: 0.04rem solid #F3F3F3;
+}
+
+.products {
+	position: relative;
+	margin-top: -0.93rem;
+	height: 4.76rem;
+}
+
+div.left-img {
+	position: absolute;
+	left: 0;
+	background: url(../img/img12/CARDLeft.png) no-repeat;
+	background-size: 100% 100%;
+	width: 1.2rem;
+	height: 4.8rem;
+	margin-top: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+
+div.right-img {
+	position: absolute;
+	right: 0;
+	background: url(../img/img12/CARDRight.png) no-repeat;
+	background-size: 100% 100%;
+	width: 1.2rem;
+	height: 4.8rem;
+	margin-top: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+
+.products .main {
+	float: left;
+	display: none;
+}
+.products .main span{
+	display: block;
+	background: url(../img/img12/dots.png) no-repeat;
+	background-size: 100% 100%;
+	height: 0.13rem;
+	width: 2.85rem;
+	margin-top: 0.55rem;
+	margin-left: 3.35rem;
+	margin-right: 4.67rem;
+	
+}
+.products .main span.span-2{
+	display: block;
+	background: url(../img/img12/dots.png) no-repeat;
+	background-size: 100% 100%;
+	height: 0.13rem;
+	width: 2.85rem;
+	margin-top: 0.25rem;
+	margin-left: 3.35rem;
+	margin-right: 4.67rem;
+	
+}
+.products .main .img-box2{
+	width: 8.85rem;
+	height: 5.65rem;
+	background: url(../img/img12/CARDCentre.png) no-repeat;
+	background-size: 100% 100%;
+}
+.products .main .img-box1{
+	width: 8.55rem;
+	height: 5.2rem;
+	background: url(../img/img12/Details.png) no-repeat center;
+	background-size: 85%;
+	background-color: #3662D3;
+	border-radius: 0.8rem;
+	margin: 0.2rem 0.2rem 0.2rem 0.15rem;
+	box-shadow: 0.02rem 0.02rem 0.1rem #3662D3;
+	}
+.products .main .img-box3{
+	width: 8.55rem;
+	height: 5.2rem;
+	background: url(../img/img12/Details.png) no-repeat center;
+	background-size: 85%;
+	background-color: #3FB32D;
+	border-radius: 0.8rem;
+	margin: 0.2rem 0.2rem 0.2rem 0.15rem;
+	box-shadow: 0.02rem 0.02rem 0.1rem #3FB32D;
+}
+.products .main.selected {
+	margin-left: 1.7rem;
+	margin-right: 1.7rem;
+	margin-top: 0.55rem;
+	display: block;
+	width: 8.85rem;
+	height: 5.65rem;
+}
+
+.tab li.active {
+	border-bottom: 0;
+	color: #ED8600;
+	border-bottom: 2px solid #ED8600;
+}
+
+.Pay-info {
+	margin-top: 1rem;
+	width: 11.28rem;
+	height: 9rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bg-box {
+	margin-top: 0.73rem;
+	margin-left: 0.6rem;
+	margin-right: 0.5rem;
+}
+
+.Pay-info {
+	width: 100%;
+	height: 6.7rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.Pay-info div {
+	width: 11.3rem;
+	height: 1.7rem;
+	background-color: #FFFFFF;
+	border-radius: 1%;
+	border: 0.01rem solid #C1C1C1;
+	position: relative;
+}
+
+.Pay-info input {
+	padding-left: 0.8rem;
+}
+
+.inp-postcode {
+	width: 4.45rem;
+	height: 1.68rem;
+	position: absolute;
+	right: 0;
+	border-left: 0.001rem solid #C1C1C1;
+}
+
+.inp-img {
+	width: 0.45rem;
+	height: 0.67rem;
+	position: absolute;
+	right: 0.75rem;
+	top: 0.5rem;
+	bottom: 0.6rem;
+}
+
+.fixed-Box {
+	border-top: 0.01rem solid #C1C1C1;
+	width: 100%;
+	height: 2.6rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #FFFFFF;
+}
+
+.fixed-Box input.fixed-btn {
+	width: 10.8rem;
+	height: 1.85rem;
+	background-color: #fba827;
+	color: white;
+	font-size: 0.65rem;
+	text-align: center;
+	line-height: 1.67rem;
+	margin: 0.4rem 0.8rem;
+	border-radius: 0.8rem;
+	cursor: pointer;
+	outline: none;
+	border: 0;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>10</title>
+		<link rel="stylesheet" type="text/css" href="css/10-Checkout-Screen.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			~ function(window) {
+				let computeREM = function() {
+					let doc = document.documentElement,
+						docWidth = doc.clientWidth;
+					if(docWidth >= 625) {
+						doc.style.fontSize = 100 + "px";
+						return;
+					}
+					doc.style.fontSize = (docWidth / 625) * 100 + "px";
+					console.log(docWidth)
+				}
+				computeREM();
+				window.addEventListener('resize', computeREM)
+			}(window)
+		</script>
+		<div class="mainBox">
+    <header>
+        <div class="nav-bar"><i></i></div>
+        <div class="nav-title">确认订单</div>
+        <div class="nav-count"><i></i></div>
+    </header>
+    <section class="sec-body">
+        <div class="sec-con">
+            <ul>
+            	 <li>
+                    <div class="foodImg"><img src="img/img13/Image1.png" alt=""></div>
+                    <div class="foodName">
+                        <h4>兰州炒面条</h4>
+                        <a href="javascript:;">删除此商品</a>
+                    </div>
+                    <div class="addFood">
+                        <span class="reduce">-</span><span class="foodNum">5</span><span class="add">+</span>
+                    </div>
+                    <div class="foodPrice">11.25$</div>
+                </li>
+            	<li>
+                    <div class="foodImg"><img src="img/img13/Image2.png" alt=""></div>
+                    <div class="foodName">
+                        <h4>凉拌马铃薯条</h4>
+                        <a href="javascript:;">删除此商品</a>
+                    </div>
+                    <div class="addFood">
+                        <span class="reduce">-</span><span class="foodNum">3</span><span class="add">+</span>
+                    </div>
+                    <div class="foodPrice">6.75$</div>
+                </li>
+                <li>
+                    <div class="foodImg"><img src="img/img13/Image3.png" alt=""></div>
+                    <div class="foodName">
+                        <h4>猪肉饺子</h4>
+                        <a href="javascript:;">删除此商品</a>
+                    </div>
+                    <div class="addFood">
+                        <span class="reduce">-</span><span class="foodNum">1</span><span class="add">+</span>
+                    </div>
+                    <div class="foodPrice">2.25$</div>
+                </li>
+            </ul>
+            <div class="sec-total">
+                <div class="addMore">添加更多商品</div>
+                <div class="total-con">总计:<span>20.25$</span></div>
+            </div>
+        </div>
+        <div class="payCart">
+            <div class="payBtn">支付订单</div>
+        </div>
+    </section>
+</div>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>

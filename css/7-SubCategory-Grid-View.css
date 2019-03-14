@@ -1,0 +1,191 @@
+html {
+	font-size: 100px;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+		background-color: #f7f7f7;
+}
+input{
+	outline: none;
+}
+.mainBox {
+	height: 22.05rem;
+}
+
+.View-head {
+	width: 100%;
+	height: 1.9rem;
+	 background:linear-gradient(to right,#fdad2c,#f8a220,#ef8c07) ;
+	
+}
+.head{
+	 padding-top: 0.1rem;
+	 background:linear-gradient(to right,#fdad2c,#f8a220,#ef8c07) ;
+}
+.View-head .head-1 {
+	margin-left: 0.16rem;
+	height: 0.6rem;
+	background: url(../img/img5/statusbar.png) no-repeat;
+	background-size: 99% 65%;
+}
+
+.View-head .head-2 {
+	padding-right: 0.35rem;
+	padding-left: 0.5rem;
+	padding-bottom: 0.2rem;
+	padding-top: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.head-2 i {
+	margin-top: 0.15rem;
+	width: 0.8rem;
+	height: 0.65rem;
+	background: url(../img/img7/back.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.head-2 span {
+	color: #FFFFFF;
+	font-size: 0.51rem;
+	font-family: "微软雅黑";
+}
+
+.head-2 em {
+	width: 0.75rem;
+	height: 0.9rem;
+  background: url(../img/img5/Group1.png) no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.View-content {
+	background-color: #f7f7f7;
+}
+
+.Menus{
+	display: flex;
+	justify-content: space-around;
+}
+.Menus.Menus-1{
+	text-align: center;
+	margin-top: 0.7rem;
+}
+.Menus.Menus-2{
+	text-align: center;
+	margin-top: 1rem;
+}
+.Menus.Menus-3{
+	text-align: center;
+	margin-top: 1rem;
+}
+.Menu {
+	width: 5.1rem;
+	height: 5.15rem;
+	background-color: #FFFFFF;
+	border-radius: 0.6rem;
+	position: relative;
+}
+.Menu .top-price{
+	background: url(../img/img7/Price.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.4rem;
+	right: 0;
+	width: 1.6rem;
+	height: 0.8rem;
+	
+}
+
+.Menu img{
+	border-radius: 50%;
+	margin-top: 0.55rem;
+}
+.Menu p{
+	position: relative;
+	margin: 0rem;
+	color: #3f3f3f;
+	font-size: 0.45rem;
+	font-family: "微软雅黑";
+}
+.Menu p::after{
+	content: "";
+	width: 0.15rem;
+	height: 0.15rem;
+	display: inline-block;
+	background-color: #3B9844;
+	margin-left: 0.3rem;
+	position: absolute;
+	top: 0.2rem;
+	border-radius: 50%;
+}
+.Menu p.red::after{
+	content: "";
+	width: 0.15rem;
+	height: 0.15rem;
+	display: inline-block;
+	background-color:red;
+	margin-left: 0.3rem;
+	position: absolute;
+	top: 0.2rem;
+	border-radius: 50%;
+}
+
+.Menu em{
+	margin-top: 0.15rem;
+	display: block;
+	margin: 0 auto;
+	width: 1.5rem;
+	height: 0.3rem;
+	background: url(../img/img5/Rating.png) no-repeat;
+	background-size: 100% 100%;
+} 
+input.btn{
+	display: block;
+	margin: 0 auto;
+	margin-top:0.35rem;
+	padding: 0;
+	border: 0;
+	color: #000000;
+	width: 3.28rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	border-radius:0.8rem;
+	border: 0.01rem solid #635E5E;
+	background-color: #FFFFFF;
+	
+}
+input.actived{
+	padding: 0;
+	border: 0;
+	width: 3.3rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	border-radius:0.8rem;
+	background-color: #FAA726;
+	color: #FFFFFF;
+}
+input:active{
+	padding: 0;
+	border: 0;
+	width: 3.3rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	border-radius:0.8rem;
+	background-color: #FAA726;
+	color: #FFFFFF;
+}
+input:hover{
+	padding: 0;
+	border: 0;
+	width: 3.3rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	border-radius:0.8rem;
+	background-color: #FAA726;
+	color: #FFFFFF;
+}

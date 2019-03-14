@@ -1,0 +1,103 @@
+html{
+    font-size: 100px;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+input{
+	outline: none;
+}
+.mainBox{
+    height: 22.05rem;
+}
+.login-headImg{
+    width: 100%;
+    height: 9.5rem;
+    background: url("../img/img1-3/headerImg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.RegisterInfo{
+    padding: 0.57rem 0.54rem 0 0.54rem;
+    box-sizing: border-box;
+}
+.RegisterInfo i{
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-left: 0.4rem;
+}
+
+.RegisterInfo>div>input{
+    border: none;
+    outline: none;
+    vertical-align: 30%;
+    margin-left: 0.78rem;
+    font-size: .6rem;
+}
+.u-name{
+	border-bottom: .06rem solid #f3ebeb;
+    padding-bottom: 0.5rem;
+}
+.u-name i{
+	 width: 1rem;
+    background: url("../img/img1-3/icon1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.u-tel{
+   padding-top:0.86rem;
+    box-sizing: border-box;
+    border-bottom: .06rem solid #f3ebeb;
+    padding-bottom: 0.5rem;
+}
+.u-tel i{
+    background: url("../img/img1-3/icon2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.u-email{
+	padding-top:0.86rem;
+    border-bottom: .06rem solid #f3ebeb;
+    padding-bottom: 0.5rem;
+}
+.u-email i{
+    width: 1rem;
+    background: url("../img/img1-3/icon3.png") no-repeat;
+    background-size: 100% 100%;
+}
+.u-pwd{
+    padding-top:0.86rem;
+    box-sizing: border-box;
+    border-bottom: .06rem solid #f3ebeb;
+    padding-bottom: 0.5rem;
+}
+.u-pwd i{
+    background: url("../img/img1-3/icon4.png") no-repeat;
+    background-size: 100% 100%;
+}
+.Register-btn{
+    width: 9.5rem;
+    height: 1.67rem;
+    background-color: #fba827;
+    color: white;
+    font-size: .6rem;
+    text-align: center;
+    line-height: 1.67rem;
+    margin: 0 auto;
+    margin-top: 0.9rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.backLogin{
+	text-decoration: none;
+	display: block;
+    width: 9.5rem;
+    height: 1.67rem;
+    font-size: .6rem;
+    text-align: center;
+    line-height: 1.67rem;
+    margin:.47rem auto 0 auto;
+  	color: #917f7f;
+    cursor: pointer;
+    font-size: 0.5rem;
+
+}

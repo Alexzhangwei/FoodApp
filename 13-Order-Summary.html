@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>13</title>
+		<link rel="stylesheet" type="text/css" href="css/13-Order-Summary.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			~ function(window) {
+				let computeREM = function() {
+					let doc = document.documentElement,
+						docWidth = doc.clientWidth;
+					if(docWidth >= 1250) {
+						doc.style.fontSize = 100 + "px";
+						return;
+					}
+					doc.style.fontSize = (docWidth / 1250) * 100 + "px";
+					console.log(docWidth)
+				}
+				computeREM();
+				window.addEventListener('resize', computeREM)
+			}(window)
+		</script>
+		<section class="mainBox">
+			<div class="View-head">
+				<div class="head">
+					<div class="head-1"></div>
+				<div class="head-2"><i></i><span>订单确认</span><em></em></div>
+				</div>
+				
+			</div>
+			<div class="View-content">
+				<div class="content-box">
+					<!--1-->
+					<div class="f f1">
+
+						<i></i>
+						<div class="f1-r">
+							<div class="f1-line1">
+
+								<div class="line1-left"><span>John Doe</span></div>
+								
+							</div>
+							<div class="f1-line2">
+								<div class="line2-left"><span>johndoe@gmail.com</span><br><span>01 987 6543 210</span></div>
+								
+							</div>
+						</div>
+
+					</div>
+					<!--2-->
+					<div class="f f2">
+						<div class="f2-allp">
+						<p class="f2-p">派送地址：</p>
+						<p>41，应用创新，一楼 74区、工业区相8b 160062印度莫哈里</p>
+						</div>
+						
+					</div>
+					<!--3-->
+					<div class="f f3">
+						<div class="f3-box">
+					
+						<div class="line f3-line2">
+							<div class="line-left">
+								<i class="i-img img1"></i>
+								<span class="m-t m-l">兰州炒面</span>
+							</div>
+							<div class="line-right">
+								<span class="m-r p-l">5</span>
+								<span>11.25$</span>
+							</div>
+						</div>
+						</div>
+						
+					</div>
+					<!--4-->
+					<div class="f f4">
+						<div class="line f4-line2">
+							<div class="line-left">
+									<i class="i-img img2"></i>
+								<span class="m-l">凉拌马铃薯</span>
+							</div>
+							<div class="line-right">
+								<span class="m-r">2</span>
+								<span>6.75$</span>
+							</div>
+						</div>
+					</div>
+					<!--5-->
+					<div class="f f5">
+						<div class="line f5-line2">
+							<div class="line-left">
+									<i class="i-img img3"></i>
+									<span class="m-l">猪肉饺子</span>
+							</div>
+							<div class="line-right">
+								<span class="m-r">1</span>
+								<span>2.25$</span>
+							</div>
+						</div>
+					</div>
+					<!--6-->
+					<div class="f f6">
+						<div class="line f6-line1">
+							<div class="line-left">
+								<span>总计</span>
+							</div>
+							<div class="line-right">
+
+								<span>20.25$</span>
+							</div>
+						</div>
+						<div class="line f6-line1">
+							<div class="line-left">
+								<span>折扣</span>
+							</div>
+							<div class="line-right">
+
+								<span>-3.00$</span>
+							</div>
+						</div>
+						<div class="line f6-line1">
+							<div class="line-left">
+								<span>送餐费用（14.4%)</span>
+							</div>
+							<div class="line-right">
+								<span>3.00$</span>
+							</div>
+						</div>
+						<div class="line f6-line1">
+							<div class="line-left">
+								<span>服务费</span>
+							</div>
+							<div class="line-right">
+
+								<span>0.75$</span>
+							</div>
+						</div>
+						<div class="line f6-line1">
+							<div class="line-left">
+								<span>其他费用</span>
+							</div>
+							<div class="line-right">
+
+								<span>0.75$</span>
+							</div>
+						</div>
+					</div>
+					<!--7-->
+					<div class="f f7">
+						<div class="line f7-line1">
+							<div class="line-left">
+								<span>总计</span>
+							</div>
+							<div class="line-right">
+
+								<span>21.75$</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	<div class="fixed-Box">
+				<input type="button" value="继续" class="fixed-btn" />
+			</div>
+		</section>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>

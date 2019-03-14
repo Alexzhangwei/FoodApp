@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>14</title>
+		<link rel="stylesheet" type="text/css" href="css/14_Order_completed.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			~ function(window) {
+				let computeREM = function() {
+					let doc = document.documentElement,
+						docWidth = doc.clientWidth;
+					if(docWidth >= 1250) {
+						doc.style.fontSize = 100 + "px";
+						return;
+					}
+					doc.style.fontSize = (docWidth / 1250) * 100 + "px";
+					console.log(docWidth)
+				}
+				computeREM();
+				window.addEventListener('resize', computeREM)
+			}(window)
+		</script>
+		<section class="mainBox">
+			<div class="View-head">
+				<div class="head">
+					<div class="head-1"></div>
+				<div class="head-2"><i></i><span>订单成功</span><em></em></div>
+				</div>
+				
+			</div>
+			<div class="View-content">
+				<div class="Pay">
+					<div class="success-img"></div>
+					<span>感谢您！</span>
+					<p>您的订单已经提交！</p>
+				</div>
+			</div>
+			<div class="bg-box">
+
+				<div class="Pay-info">
+					<div class=" OrderID"><span>订单号</span><span class="T50">2017061585</span></div>
+					<div class="Total"><span>总计</span><span>21.75$</span></div>
+					<div class="Orderdetail"><span>订单详情</span>
+						<p>兰州炒面, 2 凉拌马铃薯, 5 猪肉饺子 和 2 大杯可乐</p>
+					</div>
+
+					<div class="Pay-methods"><span>支付方式</span><span>XXXX-4143</span></div>
+
+				</div>
+			</div>
+			</div>
+			<div class="fixed-Box">
+				<input type="button" value="确定" class="fixed-btn" />
+			</div>
+		</section>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>

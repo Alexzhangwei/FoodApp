@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>12</title>
+		<link rel="stylesheet" type="text/css" href="css/12-Payment-Option.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			~ function(window) {
+				let computeREM = function() {
+					let doc = document.documentElement,
+						docWidth = doc.clientWidth;
+					if(docWidth >= 1250) {
+						doc.style.fontSize = 100 + "px";
+						return;
+					}
+					doc.style.fontSize = (docWidth / 1250) * 100 + "px";
+					console.log(docWidth)
+				}
+				computeREM();
+				window.addEventListener('resize', computeREM)
+			}(window)
+		</script>
+		<section class="mainBox">
+			<div class="View-head">
+				<div class="head">
+						<div class="head-1"></div>
+				<div class="head-2"><i></i><span>支付方式</span><em></em></div>
+				</div>
+			
+			</div>
+			<div class="View-content">
+
+				<div class="wrapper">
+					<ul class="tab">
+						<li class="tab-item">账户余额</li>
+						<li class="tab-item active">信用卡</li>
+						<li class="tab-item">网络银行</li>
+					</ul>
+					<div class="products">
+						<div class="left-img"></div>
+						<div class="main">
+								<a href="###"><div class="img-box1"></div><span></span></a>
+						</div>
+						<div class="main selected">
+								<a href="###"><div class="img-box2"></div><span class="span-2"></span></a>
+						</div>
+
+						<div class="main">
+								<a href="###"><div class="img-box3"></div><span></span></a>
+						</div>
+						<div class="right-img"></div>
+					</div>
+
+				</div>
+			</div>
+			<div class="bg-box">
+
+				<div class="Pay-info">
+					<div class="Detailed-Address"><input type="text" placeholder="详细地址" class="inp-address"><input type="text" placeholder="邮编" class="inp-postcode"></div>
+					<div class="Site-selection"><input type="text" placeholder="位置选择" class="inp-site"><input type="image" src="img/img12/pinicon.png" class="inp-img"></div>
+					<div class="City-selection"><input type="text" placeholder="城市选择" class="inp-city"></div>
+				</div>
+			</div>
+			</div>
+			<div class="fixed-Box">
+				<input type="button" value="继续" class="fixed-btn" />
+			</div>
+		</section>
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				//操作对象,当鼠标进入放在顶部tab标签上时，启动下面的div
+				$(".tab-item").mouseenter(function() {
+					//1.当前对象li获得当前active样式，其他li移除当前active样式
+					$(this).addClass("active").siblings().removeClass("active");
+					//2.当前对象的索引赋给下面相对应的div,并获得当前selected样式，其他div移除当前selected样式
+					var i = $(this).index() //获得当前索引
+					$(".main").eq(i).addClass("selected").siblings().removeClass("selected");
+				})
+			})
+		</script>
+	</body>
+
+</html>

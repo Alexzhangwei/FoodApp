@@ -1,0 +1,121 @@
+html {
+	font-size: 100px;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+		background-color: #f7f7f7;
+}
+input{
+	outline: none;
+}
+.mainBox {
+	height: 22.05rem;
+}
+
+.View-head {
+	width: 100%;
+	height: 1.9rem;
+	 background:linear-gradient(to right,#fdad2c,#f8a220,#ef8c07) ;
+	
+}
+.head{
+	 padding-top: 0.1rem;
+	 background:linear-gradient(to right,#fdad2c,#f8a220,#ef8c07) ;
+}
+.View-head .head-1 {
+	margin-left: 0.16rem;
+	height: 0.6rem;
+	background: url(../img/img5/statusbar.png) no-repeat;
+	background-size: 99% 65%;
+}
+
+.View-head .head-2 {
+	padding-right: 0.35rem;
+	padding-left: 0.5rem;
+	padding-bottom: 0.6rem;
+	padding-top: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.head-2 i {
+	margin-top: 0.15rem;
+	width: 0.8rem;
+	height: 0.65rem;
+	background: url(../img/img7/back.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.head-2 span {
+	color: #FFFFFF;
+	font-size: 0.51rem;
+	font-family: "微软雅黑";
+}
+
+.head-2 em {
+	width: 0.75rem;
+	height: 0.9rem;
+	 background: url(../img/img5/Group1.png) no-repeat;
+	background-size: 100% 100%;
+	
+ 
+}
+
+.View-content {
+	background-color: #f7f7f7;
+}
+
+.Menus{
+	display: flex;
+	justify-content: space-around;
+}
+.Menus.Menus-1{
+	text-align: center;
+	margin-top: 0.4rem;
+}
+.Menus.Menus-2{
+	text-align: center;
+	margin-top: 0.6rem;
+}
+.Menus.Menus-3{
+	text-align: center;
+	margin-top: 0.6rem;
+}
+.Menu {
+	width: 5.1rem;
+	height: 5.15rem;
+	background-color: #FFFFFF;
+	border-radius: 0.6rem;
+}
+.Menu img{
+	margin-top: 0.8rem;
+}
+.Menu p {
+	margin: 0rem;
+	color: #635e5e;
+	font-size: 0.5rem;
+	font-family: "微软雅黑";
+}
+
+.Menu em{
+	margin-top: 0.15rem;
+	display: block;
+	margin: 0 auto;
+	width: 1.7rem;
+	height: 0.36rem;
+	background: url(../img/img5/Rating.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.Menu span {
+	display: block;
+	margin-top: 0.3rem;
+	margin-bottom: 0.5rem;
+	color: #c1c1c1;
+
+	font-size: 0.3rem;
+	font-family: "微软雅黑";
+}

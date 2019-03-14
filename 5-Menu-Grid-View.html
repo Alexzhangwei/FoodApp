@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>Menu-Grid-View</title>
+		<link rel="stylesheet" type="text/css" href="css/5-Menu-Grid-View.css">
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			~ function(window) {
+				let computeREM = function() {
+					let doc = document.documentElement,
+						docWidth = doc.clientWidth;
+					if(docWidth >= 1250) {
+						doc.style.fontSize = 100 + "px";
+						return;
+					}
+					doc.style.fontSize = (docWidth / 1250) * 100 + "px";
+					console.log(docWidth)
+				}
+				computeREM();
+				window.addEventListener('resize', computeREM)
+			}(window)
+		</script>
+		<section class="mainBox">
+			<div class="View-head">
+								<div class="head"><div class="head-1"></div>
+				<div class="head-2"><i></i><span>菜单</span><em></em></div></div>
+			</div>
+			<div class="View-content">
+				<div class="Menus Menus-1">
+					<div class="Menu"><img src="img/img5/Icon1.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>休闲食品</p><em></em><span>1$-10$</span></div>
+					<div class="Menu"><img src="img/img5/Icon2.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>中国菜</p><em></em><span>1$-10$</span></div>
+				</div>
+				<div class="Menus Menus-2">
+					<div class="Menu"><img src="img/img5/Category3.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>非素食</p><em></em><span>1$-10$</span></div>
+					<div class="Menu"><img src="img/img5/Icon4.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>饮料</p><em></em><span>1$-10$</span></div>
+				</div>
+				<div class="Menus Menus-3">
+					<div class="Menu"><img src="img/img5/Category5.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>披萨</p><em></em><span>1$-10$</span></div>
+					<div class="Menu"><img src="img/img5/Category6.png" style="width: 2.4rem;
+	height: 1.8rem;">
+						<p>甜甜圈</p><em style="margin-top: 0.2rem;"></em><span>1$-10$</span></div>
+				</div>
+
+			</div>
+		</section>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>
